@@ -1,0 +1,70 @@
+.taxonomy-admin-filter ul.categorychecklist{
+  position:relative;
+}
+ul.cat-checklist.taxonomy-admin-filter li,
+.taxonomy-admin-filter ul.categorychecklist li{
+  white-space:nowrap;
+}
+ul.cat-checklist .category_count,
+ul.categorychecklist .category_count{
+  margin-left:1px;
+  font-size:80%;
+  vertical-align:super;
+}
+ul.cat-checklist .category_post_type_count,
+ul.categorychecklist .category_post_type_count{
+  vertical-align:super;
+  margin-left:2px;
+  font-weight:bold;
+  font-size:80%;
+}
+.taxonomy-admin-filter .tabs-panel{
+  position:relative;
+}
+ul.cat-checklist.reducing_results,
+.taxonomy-admin-filter .tabs-panel.reducing_results{
+  opacity:0.5;
+}
+.taxonomy-admin-filter .tabs-panel[id$='-pop']:not([style="display: none;"]) + div.taxonomy-admin-filters,
+.taxonomy-admin-filter .tabs-panel[id$='-all'][style="display: none;"] + div.taxonomy-admin-filters{
+  display:none;
+}
+.categorydiv .hiddentax > label,
+.categorydiv .hiddentax{
+  display:none;
+}
+.taxonomy-admin-filter-label{
+  display:inline-block;
+  margin-top:5px;
+}
+input.taxonomy-admin-filter-label{
+  width:100%;
+	margin:0;
+}
+
+.inline-edit-row fieldset label.taxonomy-admin-filter-label{
+  display:inline-block;
+  line-height:1;
+}
+label.taxonomy-admin-filter-label {
+  padding-right:5px;
+}
+.taxonomy-admin-filter > div[id$='-all']{
+  margin-top:5px;
+}
+span.taxonomy-admin-filter-label{
+  width:33%;
+  text-align:center;
+}
+span.taxonomy-admin-filter-label > span{
+  font-weight:bold;
+}
+.taxonomy-admin-select2{
+  border-left: 3px solid #fff;
+}
+.taxonomy-admin-select2-selected{
+  border-left: 3px solid #46b450;
+}
+ul.taxonomy-admin-filter{
+  width:calc(100% - 10px);
+}

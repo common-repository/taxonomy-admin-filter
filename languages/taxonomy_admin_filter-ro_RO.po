@@ -1,0 +1,221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Taxonomy admin filter\n"
+"POT-Creation-Date: 2016-10-14 13:06+0300\n"
+"PO-Revision-Date: 2016-10-14 13:06+0300\n"
+"Last-Translator: Lisal Expert <office@lisal.ro>\n"
+"Language-Team: Lisal Expert <office@lisal.ro>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: override/class-walker-category-checklist-override.php:97
+#: taxonomy-admin-filter.php:370
+msgid "Assigned to current post type"
+msgstr "Asociate la tipul de articol curent"
+
+#: override/class-walker-category-checklist-override.php:97
+#: taxonomy-admin-filter.php:371
+msgid "Assigned to other post types"
+msgstr "Asociate la alte tipuri de articol"
+
+#: taxonomy-admin-filter-settings.php:39
+msgid "Taxonomy admin filter settings"
+msgstr "Setări filtre taxonomii"
+
+#: taxonomy-admin-filter-settings.php:47
+msgid "Confirm reset"
+msgstr "Confirmare resetare"
+
+#: taxonomy-admin-filter-settings.php:50
+msgid "Resetting.."
+msgstr "Se resetează.."
+
+#: taxonomy-admin-filter-settings.php:66
+msgid ""
+"Choose in which taxonomy admin page box show filter field. Change \"hide "
+"filter\" checkbox if you want to hide filter field if taxonomy has no "
+"values. You can enable a taxonomy filter by checking his checkbox input "
+"beside taxonomy names."
+msgstr ""
+"Alegeți care din taxonomii suportă aceasta filtrare. Bifați caseta \"Ascunde "
+"filtrul\" dacă nu doriți afișarea filtrului dacă taxonomia nu conține "
+"valori. Puteți activa filtrul pentru o taxonomie bifând caseta din dreptul "
+"numelui taxonomiei."
+
+#: taxonomy-admin-filter-settings.php:67
+msgid ""
+"When you enable a taxonomy filter, a section for choosing hidden taxonomy "
+"terms is displayed in every WordPress user profile's settings page. In that "
+"page you can select a list of taxonomy terms that are automatically removed "
+"from hierarchical term taxonomies inside admin pages."
+msgstr ""
+"Când activați filtrul unei taxonomii, în pagina de setări profil utilizator "
+"veți avea posibilitatea de a alege termeni de taxonomie ce vor fi ascunși "
+"utilizatorului respectiv în listele ierarhice ale taxonomiei în paginile de "
+"administrare."
+
+#: taxonomy-admin-filter-settings.php:68
+msgid "Note: The plugin does not support non-hierarchical tags."
+msgstr "Nota: Pluginul nu suportă taguri non-ierarhice."
+
+#: taxonomy-admin-filter-settings.php:76
+msgid "Save"
+msgstr "Salvare"
+
+#: taxonomy-admin-filter-settings.php:77
+msgid "Reset"
+msgstr "Resetare"
+
+#: taxonomy-admin-filter-settings.php:94
+msgid "Select2 javascript URL"
+msgstr "URL javascript Select2"
+
+#: taxonomy-admin-filter-settings.php:99 taxonomy-admin-filter-settings.php:121
+msgid "Default"
+msgstr "Implicit"
+
+#: taxonomy-admin-filter-settings.php:107
+#: taxonomy-admin-filter-settings.php:129
+msgid "Custom URL"
+msgstr "URL personalizat"
+
+#: taxonomy-admin-filter-settings.php:109
+msgid "Please enter the Select2 Javascript file full URL. E.g."
+msgstr "Introduceți URL-ul întreg către fișierul Javascript Select2"
+
+#: taxonomy-admin-filter-settings.php:116
+msgid "Select2 css URL"
+msgstr "URL CSS Select2"
+
+#: taxonomy-admin-filter-settings.php:131
+msgid "Please enter the Select2 CSS file full URL. E.g."
+msgstr "Introduceți URL-ul întreg către fișierul CSS Select2"
+
+#: taxonomy-admin-filter-settings.php:141
+#: taxonomy-admin-filter-settings.php:151
+msgid "Name"
+msgstr "Nume"
+
+#: taxonomy-admin-filter-settings.php:142
+#: taxonomy-admin-filter-settings.php:152
+msgid "Slug"
+msgstr "Alias"
+
+#: taxonomy-admin-filter-settings.php:143
+#: taxonomy-admin-filter-settings.php:153
+msgid "Rewrite slug"
+msgstr "Rescriere alias"
+
+#: taxonomy-admin-filter-settings.php:144
+#: taxonomy-admin-filter-settings.php:154
+msgid "Enable"
+msgstr "Activează"
+
+#: taxonomy-admin-filter-settings.php:145
+#: taxonomy-admin-filter-settings.php:155
+msgid "Use Select2"
+msgstr "Folosește Select2"
+
+#: taxonomy-admin-filter-settings.php:146
+#: taxonomy-admin-filter-settings.php:156
+msgid "Hide filter if taxonomy is blank"
+msgstr "Ascunde filtrul dacă taxonomia e goală"
+
+#: taxonomy-admin-filter-users.php:23
+msgid "Taxonomy Filters Management"
+msgstr "Management Filtre taxonomii"
+
+#: taxonomy-admin-filter-users.php:24
+msgid ""
+"Choose hidden taxonomy terms for the user. By default, all taxonomy terms "
+"are visible in the hierarchical term taxonomies sections inside admin pages. "
+"You can choose only from max 2 nested levels but all the children of a "
+"hidden term are automatically removed from admin pages. Keep in mind that "
+"the hidden terms are not searchable and filterable. Only taxonomies with at "
+"least one term are shown below."
+msgstr ""
+"Alegeți termenii de taxonomie ascunși acestui utilizator. În mod implicit "
+"toți termenii sunt afișați în secțiunile de taxonomii ierarhice in paginile "
+"de administrare. Copii termenilor aleși nu vor fi afișați. Doar taxonomiile "
+"cu cel puțin un termen vor fi afișate mai jos."
+
+#: taxonomy-admin-filter-users.php:27
+msgid "Hidden terms"
+msgstr "Termeni ascunși"
+
+#: taxonomy-admin-filter-users.php:46
+msgid "Taxonomy:"
+msgstr "Taxonomia:"
+
+#: taxonomy-admin-filter.php:356
+msgid "Show only the selected items"
+msgstr "Afișare doar termenii selectați"
+
+#: taxonomy-admin-filter.php:357
+msgid "Only selected"
+msgstr "Doar selectate"
+
+#: taxonomy-admin-filter.php:358
+msgid "Show only the items that are not assigned to the current post-type (0)"
+msgstr "Afisare doar termenii nealocati la tipul de articol curent (0)"
+
+#: taxonomy-admin-filter.php:359
+msgid "Hide allocated"
+msgstr "Ascunde alocate"
+
+#: taxonomy-admin-filter.php:360
+msgid "Hide items with no items assigned from other post-types [0]"
+msgstr "Ascunde termenii fără asocieri la alte tipuri de articol [0]"
+
+#: taxonomy-admin-filter.php:361
+msgid "Hide empty"
+msgstr "Ascunde goale"
+
+#: taxonomy-admin-filter.php:362
+msgid "Select all visible items"
+msgstr "Selectare toți termenii afișați"
+
+#: taxonomy-admin-filter.php:363
+msgid "Select all"
+msgstr "Selectează tot"
+
+#: taxonomy-admin-filter.php:364
+msgid "Deselect all visible items"
+msgstr "Deselectare toți termenii afișați"
+
+#: taxonomy-admin-filter.php:365
+msgid "Deselect all"
+msgstr "Deselectează tot"
+
+#: taxonomy-admin-filter.php:366
+msgid "Total: "
+msgstr "Total: "
+
+#: taxonomy-admin-filter.php:367
+msgid "Visible: "
+msgstr "Visibile: "
+
+#: taxonomy-admin-filter.php:368
+msgid "Selected: "
+msgstr "Selectate: "
+
+#: taxonomy-admin-filter.php:369
+msgid "Filter"
+msgstr "Filtrare"
+
+#: taxonomy-admin-filter.php:558
+msgid "Settings"
+msgstr "Setări"
+
+#~ msgid "Options"
+#~ msgstr "Opțiuni"
+
+#~ msgid "Filter by"
+#~ msgstr "Filtrare dupa"
